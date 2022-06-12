@@ -6,13 +6,18 @@ exercise for hugo site generator
 
 # create project
 ```shell
-hugo new site yubinBlog
+hugo new site ex_hugo --force
 # 下載相關 theme https://themes.gohugo.io/
 cd yubinBlog
-git submodule add https://github.com/dsrkafuu/hugo-theme-fuji.git themes/fuji
+git submodule add https://github.com/onweru/compose.git themes/compose
 # 新增 theme settings in config.toml
 # 新增文章
 hugo new posts/test-hugo.md
 # 跑起來
 hugo server -D
 ```
+
+# 放到 git hub 的相關設定
+- 先建立一個 github 的 access token [github](https://github.com/settings/tokens/new)，只要開repo 部份就可以，如下圖
+![](assert/2022-06-12-15-58-15.png)
+- 建立 `.github/workflows/gh-pages.yml` 
