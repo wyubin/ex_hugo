@@ -24,3 +24,6 @@ hugo server -D
 
 # pages
 - 在 github 的[測試站](https://wyubin.github.io/ex_hugo/)
+
+# git-action
+- 可以試著去看相關 github action 來確認是不是可以改看看 https://github.com/peaceiris/actions-gh-pages
