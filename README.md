@@ -21,3 +21,6 @@ hugo server -D
 - 先建立一個 github 的 access token [github](https://github.com/settings/tokens/new)，只要開repo 部份就可以，如下圖
 ![](assert/2022-06-12-15-58-15.png)
 - 建立 `.github/workflows/gh-pages.yml` 
+
+# pages
+- 在 github 的[測試站](https://wyubin.github.io/ex_hugo/)
